@@ -2,6 +2,8 @@
 
 Use WebSockets for low-latency events without exposing a public webhook endpoint. Reconnect, resubscribe, and make event processing idempotent.
 
+For a process that cannot hold an open connection, use a polling webhook (`client.webhooks.polling`) instead — see [webhooks.md](webhooks.md#polling-webhooks).
+
 ## TypeScript
 
 Current event objects use `type: "event"`; the API event name is in `eventType`.
