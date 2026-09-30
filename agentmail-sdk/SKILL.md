@@ -111,7 +111,7 @@ await authed.agent.verify({ otpCode: "123456" });
 - Read [typescript.md](references/typescript.md) for current TypeScript examples.
 - Read [python.md](references/python.md) for current Python examples and request-object differences.
 - Read [admin.md](references/admin.md) for domains, DNS/DKIM/SPF gotchas, allow/block lists, and IMAP/SMTP access.
-- Read [webhooks.md](references/webhooks.md) for Svix verification and delivery handling.
+- Read [webhooks.md](references/webhooks.md) for signature verification, and polling webhooks for agents with no public URL.
 - Read [websockets.md](references/websockets.md) for current event discriminators and subscriptions.
 - Read [deliverability.md](references/deliverability.md) when triaging "my agent's email didn't arrive."
 
